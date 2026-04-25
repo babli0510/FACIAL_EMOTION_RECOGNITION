@@ -36,3 +36,9 @@ Softmax (output layer)
 Batch Normalization
 Dropout (to prevent overfitting)
 Early Stopping
+
+The dataset used in this project is FER-2013 (Facial Expression Recognition).
+You can download it from:
+https://www.kaggle.com/datasets/msambare/fer2013
+
+
