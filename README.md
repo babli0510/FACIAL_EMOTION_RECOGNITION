@@ -1,2 +1,38 @@
 # FACIAL_EMOTION_RECOGNITION
-Facial Emotion Detection using CNN. This project classifies human emotions (Angry, Happy, Sad, Fear, Disgust, Surprise, Neutral) from facial images using deep learning with ~65–80% accuracy.
+Facial Emotion Detection using CNN
+
+This project is a deep learning-based system that detects human emotions from facial images using a Convolutional Neural Network (CNN).
+
+**Features**
+
+Detects 7 emotions:
+Angry 😠
+Disgust 🤢
+Fear 😨
+Happy 😊
+Sad 😢
+Surprise 😲
+Neutral 😐
+Uses FER-2013 dataset
+Achieves ~65–80% accuracy
+Includes data augmentation and class balancing
+
+**Dataset**
+FER-2013 (augmented version)
+Total Images: 51,590
+Image Size: 48×48 (grayscale)
+
+**Technologies Used**
+Python
+TensorFlow / Keras
+OpenCV
+NumPy
+Matplotlib
+
+**Model Details**
+Convolutional Neural Network (CNN)
+ReLU activation (hidden layers)
+Softmax (output layer)
+Batch Normalization
+Dropout (to prevent overfitting)
+Early Stopping
